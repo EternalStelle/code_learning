@@ -1,6 +1,41 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "Assignment",
+            "request": "launch",
+            "mainClass": "Java.Assignment.Assignment",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "Precedence",
+            "request": "launch",
+            "mainClass": "Java.Precedence.Precedence",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "ShowProperties",
+            "request": "launch",
+            "mainClass": "Java.ShowProperties.ShowProperties",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "HelloDate",
+            "request": "launch",
+            "mainClass": "Java.HelloDate.HelloDate",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "Welcome",
+            "request": "launch",
+            "mainClass": "Java.Welcome.Welcome",
+            "projectName": "code_learning_3e685757"
+        },
+        {
             "name": "C/C++: g++.exe 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
