@@ -2,12 +2,12 @@
 int main()
 {
     using namespace std;
-    //定义数组yams
+    // 定义数组yams
     int yams[3];
     yams[0] = 7;
     yams[1] = 8;
     yams[2] = 6;
-    //定义数组yamcosts
+    // 定义数组yamcosts
     int yamcosts[3] = {20, 30, 5};
 
     cout << "Total yams = ";

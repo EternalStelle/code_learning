@@ -7,7 +7,7 @@ int main()
     char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    //使用cin.getline()，获得一行输入，避开3.cpp的问题
+    // 使用cin.getline()，获得一行输入，避开3.cpp的问题
     cin.getline(name, ArSize);
     cout << "Enter your favourite dessert:\n";
     cin.getline(dessert, ArSize);

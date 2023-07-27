@@ -14,9 +14,9 @@ int main()
     cout << strlen(name1) << " letters and is stored\n";
     cout << "in an array of " << sizeof(name1) << " bytes.\n";
     cout << "Your initial is " << name1[0] << ".\n";
-    //将name[3]设定为'\0'可截断字符串
+    // 将name[3]设定为'\0'可截断字符串
     name2[3] = '\0';
     cout << "Here are the first 3 characters of my name: ";
     cout << name2 << endl;
-    return 0; 
+    return 0;
 }

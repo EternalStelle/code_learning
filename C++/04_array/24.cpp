@@ -1,29 +1,29 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-char * getname(void);
+char *getname(void);
 int main()
 {
-    char * name;
+    char *name;
 
     name = getname();
-    cout << name << " at " << (int *) name << "\n";
-    delete [] name;
+    cout << name << " at " << (int *)name << "\n";
+    delete[] name;
 
     name = getname();
-    cout << name << " at " << (int *) name << "\n";
-    delete [] name;
+    cout << name << " at " << (int *)name << "\n";
+    delete[] name;
 
     return 0;
 }
 
-char * getname()
+char *getname()
 {
     char temp[80];
     cout << "Enter last name: ";
     cin >> temp;
-    char * pn = new char[strlen(temp) + 1];
-    strcpy(pn ,temp);
+    char *pn = new char[strlen(temp) + 1];
+    strcpy(pn, temp);
 
     return pn;
 }
