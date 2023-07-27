@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MathOps",
+            "request": "launch",
+            "mainClass": "Java.MathOps.MathOps",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "PassObject",
+            "request": "launch",
+            "mainClass": "Java.PassObject.PassObject",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
             "name": "Assignment",
             "request": "launch",
             "mainClass": "Java.Assignment.Assignment",
