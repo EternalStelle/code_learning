@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Equivalence",
+            "request": "launch",
+            "mainClass": "Java.Equivalence.Equivalence",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
+            "name": "AutoInc",
+            "request": "launch",
+            "mainClass": "AutoInc",
+            "projectName": "code_learning_3e685757"
+        },
+        {
+            "type": "java",
             "name": "MathOps",
             "request": "launch",
             "mainClass": "Java.MathOps.MathOps",
