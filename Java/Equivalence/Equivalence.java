@@ -7,7 +7,7 @@ public class Equivalence {
                 "%d==%d %b %b%n", n1, n2, n1 == n2, n1.equals(n2));
     }
 
-    @SuppressWarnings("deprecation")
+//#@SuppressWarnings("deprecation")
     public static void test(int value) {
         Integer i1 = value;
         Integer i2 = value;
