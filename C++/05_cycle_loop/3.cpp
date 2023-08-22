@@ -11,7 +11,7 @@ int main()
     cout << (x < 3) << endl;
     cout << "The expression x > 3 has the value: ";
     cout << (x > 3) << endl;
-    cout.setf(ios_base::boolalpha);//将cout输出调整为false或true而非0或1
+    cout.setf(ios_base::boolalpha);//将cout的布尔值输出调整为false或true而非0或1
     cout << "The expression x < 3 has the value: ";
     cout << (x < 3) << endl;
     cout << "The expression x > 3 has the value: ";
